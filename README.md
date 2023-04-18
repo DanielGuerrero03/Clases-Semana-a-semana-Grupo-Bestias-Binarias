@@ -5,10 +5,8 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 <div align="center">
 <img src="https://i.ibb.co/hFyDT8Z/Screenshot-8.jpg" alt="Screenshot-8" border="0"></a></div>
 
-![Calendario](https://gifdb.com/images/high/agriculture-farmer-calendar-07r6af28u6u19h6h.gif)
 
-
-### INTEGRANTES: 
+## INTEGRANTES: 
 1. Mariana Cervantes
 2. Daiana Escudero
 3. Nahuel Tapia
@@ -19,3 +17,8 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 8. Florencia Ortega
 9. Gabriel Romero
 10. Albano Calamara
+
+
+<div align="center">
+  ![Calendario](https://tenor.com/v4Wq.gif)</div>
+  
