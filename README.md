@@ -18,7 +18,6 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 9. Gabriel Romero
 10. Albano Calamara
 
-
 <div align="center">
-  ![Calendario](https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif)</div>
-  
+  <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif">
+</div>
