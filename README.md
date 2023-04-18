@@ -19,5 +19,5 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 10. Albano Calamara
 
 <div align="center">
-  <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif">
+  <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif" alt="Calendario" width="100" height="100">
 </div>
