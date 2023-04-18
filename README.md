@@ -3,8 +3,7 @@
 Aca vamos a Subir lo que hagamos semana a semana, en las clases 
 
 <div align="center">
-<img src="https://prnt.sc/7-w2bM63Fx4y" />
-</div>
+<img src="https://i.ibb.co/hFyDT8Z/Screenshot-8.jpg" alt="Screenshot-8" border="0"></a></div>
 
 <iframe src="https://giphy.com/embed/fqIOmNAvFOaiQO9GFy" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/transparent-fqIOmNAvFOaiQO9GFy">via GIPHY</a></p>
 
