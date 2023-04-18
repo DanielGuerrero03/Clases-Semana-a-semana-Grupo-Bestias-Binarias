@@ -1,4 +1,4 @@
-# **Bestias-Binarias**
+# **BESTIAS BINARIAS**
 
 Aca vamos a Subir lo que hagamos semana a semana, en las clases 
 
@@ -18,6 +18,8 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 9. Gabriel Romero
 10. Albano Calamara
 
+### Calendario
+
 <div align="center">
-  <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif" alt="Calendario" width="100" height="100">
+  <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif" alt="Calendario" width="300" height="300">
 </div>
