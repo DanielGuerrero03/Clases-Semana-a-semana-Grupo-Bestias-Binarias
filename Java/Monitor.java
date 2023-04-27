@@ -16,8 +16,8 @@ public class Monitor {
         this.marca = marca;
         this.tamanio = tamanio;
     }
-
-    public String getMarca() {
+// nico no te metas en lo mio
+      public String getMarca() {
         return marca;
     }
 
@@ -33,10 +33,6 @@ public class Monitor {
         this.tamanio = tamanio;
     }
 
-    public int getIdMonitor(){
-        return this.idMonitor;
-    }
-
     @Override
     public String toString() {
         return "Monitor{" + "idMonitor=" + idMonitor + ", marca=" + marca + ", tamanio=" + tamanio + '}';
@@ -44,3 +40,7 @@ public class Monitor {
     
     
 }
+    
+    
+}
+// david
