@@ -1,10 +1,14 @@
 package test;
 
-import enumeraciones.Continentes;
 import enumeraciones.Dias;
 
-public class TestEnumeraciones {
-    public static void main(String[] args) {
+public class TestEsnumeraciones {
+    public static void main(String [] args){
+        System.out.println("Dias 1: "+Dias.Lunes);
+    
+
+
+      
         System.out.println("Dia 1: "+Dias.LUNES);
         indicarDiasSemana(Dias.LUNES); // Las enumeraciones se tratan como cadenas
         //Ahora no se deben utilizar comillas, se accede a través deñ operador de punto
