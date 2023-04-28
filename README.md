@@ -23,3 +23,55 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 <div align="center">
   <img src="https://media.tenor.com/KfsNy9MrbYAAAAAd/work-tired.gif" alt="Calendario" width="300" height="300">
 </div>
+
+
+<table>
+    <tr>
+          <td>SEMANA</td>  <td>INTEGRANTE</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 1 y 2</td>  <td>DANIEL GUERRERO</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 3</td>  <td>MARIANA CERVANTES</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 4</td>  <td>NICOLAS MUROS</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 5</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 6</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 7</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 8</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 9</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>SEMANA 10</td>  <td>LOADING PLEASE WAIT...</td>
+    </tr>
+</table>
