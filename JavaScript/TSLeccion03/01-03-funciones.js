@@ -31,3 +31,14 @@ function sumarTodo(){
   }
   return suma;
 }
+
+// Declaramos una funcion de tipo expresion 1.3
+let x = function(a, b){return a + b}; //necesita cierre con punto y coma
+resultado = x(5, 6); // al llamarla se pone la variable entre parentesis
+console.log(resultado);
+
+
+// Funciones de tipo self y invoking
+(function(a, b){
+  console.log('Ejecutando la funcion: '+ (a+b));
+})(9, 6);
