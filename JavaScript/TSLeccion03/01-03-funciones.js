@@ -42,3 +42,34 @@ console.log(resultado);
 (function(a, b){
   console.log('Ejecutando la funcion: '+ (a+b));
 })(9, 6);
+ 
+/* --------------------------------------- */
+
+//Paso por valor
+
+//Tipos primitivos
+let k = 10;
+
+function cambiarValor(a){ //Paso por valor
+    a = 20;
+}
+
+cambiarValor(k);//10
+console.log(k);
+
+/* --------------------------------------- */
+
+//Paso por referencia
+
+const persona = {
+    nombre: 'Juan',
+    apellido: 'Lopez'
+}
+
+function cambiarValorObjeto(p1){ //Paso por referencia
+    p1.nombre = 'Ignacio';
+    p1.apellido = 'Perez';
+}
+
+cambiarValorObjeto( persona );
+console.log( persona );
