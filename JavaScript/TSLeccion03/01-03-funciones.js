@@ -42,7 +42,34 @@ console.log(resultado);
 (function(a, b){
   console.log('Ejecutando la funcion: '+ (a+b));
 })(9, 6);
- 
+
+/* ---------1.5------------------------------ */
+
+//Tipos de datos en una función
+
+console.log(typeof miFuncion);
+
+function miFuncionDos(a, b) {
+    console.log[arguments];
+}
+
+miFuncionDos(5, 7);
+
+var miFuncionTexto = miFuncionDos.toString();
+console.log(miFuncionTexto);
+
+/* -------------1.5-------------------------- */
+/* -------------1.6-------------------------- */
+//Funciones Flecha
+
+const sumarFuncionFlecha = (a, b) => a + b;
+resultado = sumarFuncionFlecha(3, 7); //Asignamos el valor a una variable
+console.log(resultado);
+
+/* ---------------1.6------------------------ */
+
+
+
 /* --------------------------------------- */
 
 //Paso por valor
