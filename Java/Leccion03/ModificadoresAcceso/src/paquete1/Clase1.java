@@ -1,4 +1,4 @@
-
+/* punto 1.3 Mariana Cervantes */
 package paquete1;
 
 public class Clase1 {
@@ -18,6 +18,6 @@ public class Clase1 {
     }
     
     protected void metodoProtected(){
-        System.out.println("Merodo protected");
+        System.out.println("Metodo protected");
     }
 }
