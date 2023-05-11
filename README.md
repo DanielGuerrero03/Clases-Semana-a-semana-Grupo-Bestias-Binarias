@@ -29,7 +29,7 @@ Aca vamos a Subir lo que hagamos semana a semana, en las clases
 | SEMANA 1 y 2 | DANIEL GUERRERO |
 | SEMANA 3 | MARIANA CERVANTES |
 | SEMANA 4 | NICOLAS MUROS |
-| SEMANA 5 | <img src="https://venus.com.py/wp-content/uploads/2017/03/bateria-movimiento.gif" alt="bateria" width="150" height="35" >|
+| SEMANA 5 | FERNANDO SILVA |
 | SEMANA 6 | <img src="https://venus.com.py/wp-content/uploads/2017/03/bateria-movimiento.gif" alt="bateria" width="150" height="35" >|
 | SEMANA 7 | <img src="https://venus.com.py/wp-content/uploads/2017/03/bateria-movimiento.gif" alt="bateria" width="150" height="35" >|
 | SEMANA 8 | <img src="https://venus.com.py/wp-content/uploads/2017/03/bateria-movimiento.gif" alt="bateria" width="150" height="35" >|
