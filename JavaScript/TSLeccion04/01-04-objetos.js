@@ -9,7 +9,15 @@ let persona = {
     edad: 30,
     nombreCompleto: function(){ //se agrega un método dentro del objeto
         return this.nombre + ' ' + this.apellido;
-    }
+    }, 
+    get nombreEdad(){
+        return 'El nombre es:'+ this.nombre+' Edad: '+this.edad; 
+    },
+    get lang(){
+        return TouchList.idioma.toUpperCase(); //Convierte las minusculas a mayusculas.
+    },
+    set lang(lang){
+        this.idioma = lang.toUpperCase();
     
 }
 
@@ -58,3 +66,23 @@ console.log(personaArray);
 console.log("Distintas formas de imprimir un objeto: forma 4");
 let personaString = JSON.stringify(persona);
 console.log(personaString);
+
+console.log('Comenzamos a utilizar el metodo get');
+console.log(persona.nombreEdad);
+
+console.log('Comenzamos con el metodo get para idiomas');
+persona.lang = 'en'; 
+console.log(persona.lang);
+
+function persona3(nombre = 'Luis', apellido, email){ //Contructor
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.email = email;
+}
+let padre = new persona3('Leo', 'Lopez', 'lopezl@gmail.com'); 
+padre.nombre = 'Luis';
+console.log(padre);
+
+let madre = new persona3('Laura', 'Contrera', 'contreral@gmail.com');
+console.log(madre);
+
