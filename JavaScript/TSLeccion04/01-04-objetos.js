@@ -144,3 +144,10 @@ let persona5 = {
 
 console.log(persona4.nombreCompleto2('Lic.', '5942618484845')); Lic.: Juan Perez 5942618484845
 console.log(persona4.nombreCompleto2.call(persona5, 'Ing.', '5492618585856')); Ing.: Carlos Lara 5492618585856
+
+//5.7 El uso del método apply
+console.log( persona4.nombreCompleto2('Lic', '543815024221') );
+
+let arreglo = ['Ing','543815024221'];
+console.log( persona4.nombreCompleto2.apply(persona5, arreglo));
+console.log( persona4.nombreCompleto3.apply(persona5));
