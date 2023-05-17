@@ -79,10 +79,68 @@ function persona3(nombre = 'Luis', apellido, email){ //Contructor
     this.apellido = apellido;
     this.email = email;
 }
-let padre = new persona3('Leo', 'Lopez', 'lopezl@gmail.com'); 
-padre.nombre = 'Luis';
-console.log(padre);
+let padre = new Persona3('Leo', 'Lopez', 'lopezleo@gmail.com');
+padre.nombre = 'Luis'; //meodificado 
+padre.telefono = '5492618282821'; //una propiedad exclusiva del objeto padre
+console.log(persona); Persona3 {nombre: 'Luis', apellido: 'Lopez', email: 'lopezleo@gmail.com'}
+console.log(padre.nombreCompleto()); Luis Lopez
+let madre = new Persona3('Laura', 'Contrera', 'contreral@gmail.com');
+console.log(madre); Persona3 {nombre: 'Laura', apellido: 'Contrera', email: 'contreral@gmail.com'}
+console.log(madre.telefono); undefined //la propiedad no esta definida 
+console.log(madre.nombreCompleto()); Laura Contrera
 
-let madre = new persona3('Laura', 'Contrera', 'contreral@gmail.com');
-console.log(madre);
+//Diferentes formas de crear objetos 
+//caso numero 1
+let miObjeto = new Object(); //esta es una opcion formal 
+//caso numero 2
+let miObjeto = {}; //Esta opcion es breve y recomendada
 
+//caso String
+let miCaddena1 = new String('Hola'); //Sintaxis formal 
+//caso String 2
+let miCaddena2 = 'Hola'; //Esta es la sintaxis simplificada y recomendada
+
+//caso con numeros 1
+let miNumero = new Number(1); //Es formal no recomendada
+let miNumero2 = 1; //Sintaxis recomendada
+
+//caso boolean 1
+let miBoolean1 = new Boolean(false); //Formal 
+//caso boolean 2
+let miBoolean2 = false; //Sintaxis recomendada
+
+//caso Arreglos 1
+let miArreglo1 = new Array(); //Formal 
+//caso Arreglos 2
+let miArreglo2 = []; //Sintaxis recomendad
+
+//caso function 1
+let miFuncion1 = new function(){}; //Todo despues de new es considerado
+//caso function 2
+let miFuncion2 = function(){}; //Notacion simplificada y recomendada
+
+//Uso de propotype
+Persona3.prototype.telefono = '2618383832';
+console.log(padre); Persona3 { nombre: 'Luis', apellido: 'Lopez', email: 'lopezl@gmail.com', nombreCompleto: 'Luis Lopez', telefono: '5492618282821'}
+console.log(madre.telefono); 2618383832
+madre.telefono = '5492618383832';
+console.log(madre.telefono);  5492618383832
+
+
+//uso de call 
+let persona4 ={
+    nombre: 'Juan',
+    apellido: 'Perez',
+    nombreCompleto2: function(titulo, telefono){
+        return titulo+': '+this.nombre+' '+this.apellido+' '+telefono;
+
+    }
+}
+
+let persona5 = {
+    nombre: 'Carlos',
+    apellido: 'Lara',
+}
+
+console.log(persona4.nombreCompleto2('Lic.', '5942618484845')); Lic.: Juan Perez 5942618484845
+console.log(persona4.nombreCompleto2.call(persona5, 'Ing.', '5492618585856')); Ing.: Carlos Lara 5492618585856
