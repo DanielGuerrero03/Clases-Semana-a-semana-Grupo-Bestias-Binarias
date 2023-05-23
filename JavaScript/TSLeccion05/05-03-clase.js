@@ -1,3 +1,4 @@
+//let persona3 = new Persona('Carla', 'Ponce');
 class Persona{
     constructor(nombre, apellido){
         this._nombre = nombre;
@@ -19,6 +20,14 @@ class Persona{
     set apellido(apellido){
         this._apellido = apellido;
     }
+    get apellido(){
+            return this._apellido;
+
+        }
+
+        set apellido(apellido){
+            this._apellido = apellido;
+        }
 
 }
 
