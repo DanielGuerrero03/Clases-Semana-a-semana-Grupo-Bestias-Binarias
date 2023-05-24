@@ -31,6 +31,22 @@ class Persona{
 
 }
 
+class Empleado extends Persona{ //Clase hija
+    constructor(nombre, apellido, departamento){
+        super(nombre, apellido);
+        this._departamento = departamento;
+    }
+
+    get departamento(){
+        return this._departamento;
+    }
+
+    set departamento(departamento){
+        this._departamento = departamento;
+    }
+
+}
+
 let persona1 = new Persona('Martin', 'Perez');
 console.log(persona1.nombre);
 //metodo get y set para nombre
@@ -49,3 +65,7 @@ console.log(persona2.nombre);
 persona2.apellido = 'Garcia';
 console.log(persona2.apellido)
 //console.log(persona2);
+let empleado1 = new Empleado("Maria", "Gimenez", "Sistemas");
+console.log(empleado1);
+console.log(empleado1.nombre);
+
