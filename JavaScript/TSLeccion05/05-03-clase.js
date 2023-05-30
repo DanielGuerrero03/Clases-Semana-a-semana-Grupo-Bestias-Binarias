@@ -22,12 +22,15 @@ class Persona{
     }
     get apellido(){
             return this._apellido;
-
         }
 
-        set apellido(apellido){
-            this._apellido = apellido;
-        }
+    set apellido(apellido){
+        this._apellido = apellido;
+    }
+
+    nombreCompleto(){//Clase 7 Clases Parte 2
+        return this._nombre + ' ' + this._apellido;
+    }
 
 }
 
@@ -69,3 +72,6 @@ let empleado1 = new Empleado("Maria", "Gimenez", "Sistemas");
 console.log(empleado1);
 console.log(empleado1.nombre);
 
+//Clase 7 Clases Parte 2
+//7.1 Heredar métodos
+console.log(empleado1.nombreCompleto());
