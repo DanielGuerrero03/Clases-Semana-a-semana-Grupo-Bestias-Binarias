@@ -48,6 +48,11 @@ class Empleado extends Persona{ //Clase hija
         this._departamento = departamento;
     }
 
+    //Sobreescritura
+    nombreCompleto(){
+        return super.nombreCompleto()+' '+this._departamento;
+    }
+
 }
 
 let persona1 = new Persona('Martin', 'Perez');
