@@ -1,5 +1,10 @@
 //let persona3 = new Persona('Carla', 'Ponce');
-class Persona{
+class Persona
+    
+    static contadorObjetosPersonas = 0;//Atributo estático
+
+    email = 'Valor default email';//Atributo No estáti
+    
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
@@ -80,3 +85,15 @@ console.log(empleado1.nombre);
 //Clase 7 Clases Parte 2
 //7.1 Heredar métodos
 console.log(empleado1.nombreCompleto());
+
+//Clase 8 Static
+//8.2 Atributos estáticos
+console.log(persona1.contadorObjetosPersona);//no se puede acceder desde el objeto de persona
+console.log(Persona.contadorObjetosPersona);
+console.log(Empleado.contadorObjetosPersona);
+
+//8.3 Atributos estáticos vs No estáticos
+console.log( persona1.email );
+console.log( empleado1.email );
+console.log( Persona.email);//no se puede acceder desde la clase persona
+console.log( Empleado.email);//no se puede acceder desde la clase empleado
