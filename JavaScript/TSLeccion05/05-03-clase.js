@@ -38,7 +38,15 @@ class Persona
     }
 
 }
-
+ //Sobreescribiendo el metodo de la clase Padre (Object) 7-4
+      toString(){//regresa un String
+        //Se aplica polimorfismo que significa = multiples formas en tiempo de ejecucion
+        //el metodo que se ejecuta depende si es una referencia de tipo padre o hijo 
+        //(o sea del objeto al cual apunta) 
+        
+        return this.nombreCompleto();
+    }
+}
 class Empleado extends Persona{ //Clase hija
     constructor(nombre, apellido, departamento){
         super(nombre, apellido);
@@ -85,6 +93,20 @@ console.log(empleado1.nombre);
 //Clase 7 Clases Parte 2
 //7.1 Heredar métodos
 console.log(empleado1.nombreCompleto());
+
+
+//7.3 Clase Object, toString, sobreescritura y Polimorfismo
+Object.prototype.toString(); //Esta es la manera de acceder a atributos y metodos de manera dinamica
+
+console.log( persona1.toString());
+console.log( empleado1.toString());
+
+
+
+
+
+
+
 
 //Clase 8 Static
 //8.2 Atributos estáticos
