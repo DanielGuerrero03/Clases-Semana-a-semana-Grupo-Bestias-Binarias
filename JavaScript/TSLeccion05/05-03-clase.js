@@ -36,7 +36,12 @@ class Persona
     nombreCompleto(){//Clase 7 Clases Parte 2
         return this._nombre + ' ' + this._apellido;
     }
-
+    static saludar(){
+        console.log('Saludos desde este metodo static');
+    }
+    static saludar2(persona){
+        console.log(persona.nombre+' '+persona.apellido);
+    }
 }
  //Sobreescribiendo el metodo de la clase Padre (Object) 7-4
       toString(){//regresa un String
@@ -101,12 +106,10 @@ Object.prototype.toString(); //Esta es la manera de acceder a atributos y metodo
 console.log( persona1.toString());
 console.log( empleado1.toString());
 
-
-
-
-
-
-
+Persona.saludar();
+Persona.saludar2(persona1);
+Empleado.saludar();
+Empleado.saludar2(empleado1);
 
 //Clase 8 Static
 //8.2 Atributos estáticos
@@ -119,3 +122,4 @@ console.log( persona1.email );
 console.log( empleado1.email );
 console.log( Persona.email);//no se puede acceder desde la clase persona
 console.log( Empleado.email);//no se puede acceder desde la clase empleado
+
