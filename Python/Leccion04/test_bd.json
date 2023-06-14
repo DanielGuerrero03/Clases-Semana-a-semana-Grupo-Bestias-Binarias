@@ -1,0 +1,18 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "PostgreSQL 15",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "Comment": "Auto-detected PostgreSQL 15 installation with the data directory at C:\\Program Files\\PostgreSQL\\15\\data",
+            "KerberosAuthentication": false,
+            "ConnectionParameters": {
+                "sslmode": "prefer",
+                "connect_timeout": 10
+            }
+        }
+    }
+}
