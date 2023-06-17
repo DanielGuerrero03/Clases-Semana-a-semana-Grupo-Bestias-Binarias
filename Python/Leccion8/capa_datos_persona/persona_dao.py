@@ -1,5 +1,5 @@
-from conexion import Conexion
-from Persona import Persona
+from capa_datos_persona.Persona import Persona
+from capa_datos_persona.Conexion import Conexion
 from logger_base import log
 
 class PersonaDAO:
@@ -41,12 +41,29 @@ class PersonaDAO:
                 log.debug(f'Los objetos eliminados son: {persona}')
                 return cursor.rowcount
 
+    @classmethod
+    def actualizar(cls, persona):
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerConexion() as cursor:
+                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+                cursor.execute(cls._ACTUALIZAR, valores)
+                log.debug(f"Persona actualizada: {persona}")
+                return cursor.rowcount
 
-if __name__ == '__main__':
-    personas = PersonaDAO.seleccionar()
-    for persona in personas:
-        log.debug(persona)
-    #Eliminar un registro
-    #persona1 = Persona(id_persona=13)
-    #personas_eliminadas = PersonaDAO.eliminar(persona1)
-    #log.debug(f'Personas eliminadas: {personas_eliminadas}')
+
+    if _name== "main_":
+        #Actualizar un registro
+        persona1 = Persona(1, "Juan José, "Pena", "jjpena@mail.com)
+        personas_actualizadas PersonaDAO.actualizar(persona1)
+        log.debug(f"Personas actualizadas: {personas_actualizadas}")
+        
+        # Insertar un registro
+        #persona1 = Persona(nombre="Pedro", apellido="Romero", email="promero@mail.com")
+        #personas_insertadas = PersonaDAO.insertar(persona1)
+        #log.debug(f"Personas insertadas: {personas_insertadas}")
+    
+        #Seleccionar objetos 
+        personas = PersonaDAO.seleccionar()
+        for persona in personas:
+          log.debug(persona)
+   
