@@ -7,7 +7,8 @@
     <groupId>UTN</groupId>
     <artifactId>estudiante</artifactId>
     <version>1.0-SNAPSHOT</version>
-         <dependencies>
+
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
         <dependency>
             <groupId>com.mysql</groupId>
@@ -23,6 +24,3 @@
     </properties>
 
 </project>
-
-
-
