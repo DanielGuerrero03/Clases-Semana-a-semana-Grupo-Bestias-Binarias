@@ -41,7 +41,7 @@ public class EstudianteDAO {
                 con.close();
             } catch (Exception e) {
                 System.out.println("Ocurrio un error al cerrar la conexion: "+e.getMessage());
-            }
+            }//Fin Catch
         }//Fin finally
         return estudiantes;
         }//Fin metodo listar
@@ -133,8 +133,24 @@ public class EstudianteDAO {
     }//Fin metodo modificar estudiante
 
     public static void main(String[] args) {
-        //Listar los estudiantes
-        var estudianteDao = new EstudiantDAO();
+           var estudianteDao = new EstudiantDAO();
+        // Modificar estudiante
+        var estudianteModificado = new Estuduante(1, "Juac Carlos", "Juerez", 4455663321, "juan@mail.com")
+        var modificado = estudianteDao.modificarEstudiante(estudianteModificado);
+        if (modificado)
+            System..out.println("Estuduante Modificado:" + estudianteModificado);
+        else
+            System..out.println("No se modifico el Estudiante" + estudianteModificado);
+        
+       //Agregar estudiante
+      // var nuevoEstudiante = new Estudiante("Carlos", "Lara", "5495544223", "carlos@mail.com");
+      //var agregado = estudianteDao.agregarEStudiante(nuevoEstudiante);
+      // if (agregado)
+      //    System.out.println("Estudiante agregado: "+nuevoEstudiante);
+      // else
+      //   System.out.println("No se ha agregado estudiante: "+nuevoEstudiante);
+     
+          //Listar los estudiantes
         System.out.println("Listado de estudiantes:");
         List<Estudiante> estudiantes = estudianteDao.listarEstudiantes();
         estudiantes.forEach(System.out::println);//Funcion lambda para imprimir
